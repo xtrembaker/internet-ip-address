@@ -1,0 +1,20 @@
+{
+    "name": "xtrembaker/internet-ip-address",
+    "description": "Internet Address Provider",
+    "require": {
+        "symfony/dom-crawler": "^5.2",
+        "aws/aws-sdk-php": "^3.179",
+        "vlucas/phpdotenv": "^5.3"
+    },
+    "autoload": {
+      "psr-4": {
+        "CustomDynDns\\": "src/"
+      }
+    },
+    "authors": [
+        {
+            "name": "xtrembaker",
+            "email": "xtrembaker@gmail.com"
+        }
+    ]
+}
