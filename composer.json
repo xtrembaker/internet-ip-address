@@ -4,7 +4,8 @@
     "require": {
         "symfony/dom-crawler": "^5.2",
         "aws/aws-sdk-php": "^3.179",
-        "vlucas/phpdotenv": "^5.3"
+        "vlucas/phpdotenv": "^5.3",
+        "ext-simplexml": "*"
     },
     "autoload": {
       "psr-4": {
